@@ -1,0 +1,13 @@
+﻿{
+  "name": "qemel.so-gen",
+  "version": "0.0.1",
+  "displayName": "SOGen",
+  "description": "A Source Generator for Unity that automatically generates a Database of ScriptableObjects.",
+  "unity": "2022.2",
+  "dependencies": {
+
+  },
+  "author": {
+    "name": "Qemel"
+  }
+}
