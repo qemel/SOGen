@@ -1,3 +1,6 @@
+> [!WARNING]
+> このパッケージは現在作成中です
+
 ## SOGen
 
 SOGenはボイラープレートとなるScriptableObjectのDatabaseを生成するライブラリです。
