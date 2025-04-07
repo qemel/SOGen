@@ -10,6 +10,7 @@ SOGenはボイラープレートとなるScriptableObjectのDatabaseを生成す
 ### Requirements
 
 - Unity 2022.3 LTS 以降
+- Unity 2023 の一部バージョンでは利用できません
 
 ### Install
 
