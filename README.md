@@ -35,9 +35,9 @@ public enum SamplePrefabID
 // 2. ScriptableObjectクラスを定義し、DatabaseOf属性を付与
 namespace Scripts
 {
-    [DatabaseOf(IDType = typeof(SamplePrefabID), DataType = typeof(SamplePrefabSO))]
+    [DatabaseOf(typeof(SamplePrefabID),　typeof(SamplePrefabSO))]
     [CreateAssetMenu(fileName = nameof(SamplePrefabSO), menuName = "Project/" + nameof(SamplePrefabSO))]
-    public partial class SamplePrefabSO : ScriptableObject
+    public partial class SamplePrefabSO : ScriptableObject　// partialであることに注意
     {
     }
 }
