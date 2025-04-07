@@ -7,7 +7,5 @@ namespace Sandbox
 {
     [DatabaseOf(typeof(int), typeof(string))]
     [CreateAssetMenu(fileName = nameof(SampleDatabase), menuName = "SOGen/" + nameof(SampleDatabase))]
-    public partial class SampleDatabase : ScriptableObject
-    {
-    }
+    public partial class SampleDatabase : ScriptableObject { }
 }

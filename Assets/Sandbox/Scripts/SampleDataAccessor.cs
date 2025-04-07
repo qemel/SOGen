@@ -8,7 +8,7 @@ namespace Sandbox
 
         void Start()
         {
-            var dataName =_sampleDatabase.Get(1);
+            var dataName = _sampleDatabase.Get(1);
             Debug.Log(dataName);
         }
     }
